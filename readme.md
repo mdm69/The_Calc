@@ -1,6 +1,6 @@
 # Calculator Project Setup
 
-
+[![Build Status](https://app.travis-ci.com/mdm69/The_Calc.svg?branch=main)](https://app.travis-ci.com/mdm69/The_Calc)
 
 To run tests, Lint, and Coverage report use this command:
 
