@@ -11,4 +11,4 @@ script:
 branches:
   only:
     - main
-    - wip
+    - calc2
