@@ -5,7 +5,6 @@
 from calc.addition import Addition
 from calc.subtraction import Subtraction
 from calc.multiplication import Multiplication
-from calc.division import Division
 
 
 class Calculator:
@@ -60,10 +59,4 @@ class Calculator:
         """ multiply two numbers and store the result"""
         # this is a shorthand way to create the multiplication object and added it the history in one line
         Calculator.add_calculation_to_history(Multiplication.create(value_a, value_b))
-        return Calculator.get_result_of_last_calculation_added_to_history()
-
-    @staticmethod
-    def divide_numbers(value_a, value_b):
-        """ divide two numbers and store the result """
-        Calculator.add_calculation_to_history(Division.create(value_a, value_b))
         return Calculator.get_result_of_last_calculation_added_to_history()
