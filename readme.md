@@ -1,6 +1,7 @@
 # Calculator Project Setup
 
-[![Build Status](https://app.travis-ci.com/mdm69/The_Calc.svg?branch=main)](https://app.travis-ci.com/mdm69/The_Calc)
+Run Pip Install
+pip install -r requirements.txt
 
 To run tests, Lint, and Coverage report use this command:
 
