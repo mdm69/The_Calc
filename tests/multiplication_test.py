@@ -1,15 +1,13 @@
 """Testing Multiplication """
-
-import pprint
-
 import pytest
 
 from calculator.main import Calculator
+from calculator.history.calculations import Calculations
 
 
 @pytest.fixture
 def clear_history():
-    Calculator.clear_history()
+    Calculations.clear_history()
 
 
 def test_calculator_multiply(clear_history):

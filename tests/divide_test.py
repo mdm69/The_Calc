@@ -1,15 +1,13 @@
 """Testing Division """
-
-import pprint
-
 import pytest
 
 from calculator.main import Calculator
+from calculator.history.calculations import Calculations
 
 
 @pytest.fixture
 def clear_history():
-    Calculator.clear_history()
+    Calculations.clear_history()
 
 
 def test_calculator_division(clear_history):
@@ -19,6 +17,5 @@ def test_calculator_division(clear_history):
     assert Calculator.divide_numbers(40, 10) == 4
     # Will change division factor of Zero later on
     assert Calculator.divide_numbers(1, 0) is None
-    assert Calculator.history_count() == 4
-    assert Calculator.get_first_history() == 2
-    pprint.pprint(Calculator.history)
+    assert Calculations.history_count() == 4
+    assert Calculations.get_first_history() == 2
