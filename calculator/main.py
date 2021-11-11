@@ -5,7 +5,6 @@ from calc.subtraction import Subtraction
 from calc.multiplication import Multiplication
 from calc.division import Division
 
-
 class Calculator:
     """ This is the Calculator class"""
     history = []

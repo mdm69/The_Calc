@@ -1,4 +1,4 @@
-"""Testing Multiplication """
+"""Testing that Multiplication """
 
 import pprint
 

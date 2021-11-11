@@ -2,9 +2,10 @@
 
 
 class Calculation:
+    """ the constructors"""
 
     def __init__(self, value_a, value_b):
-        """ This is the instance property that is being shared with the child classes (operations) """
+        """ This is the instance property  """
         self.value_a = value_a
         self.value_b = value_b
 
